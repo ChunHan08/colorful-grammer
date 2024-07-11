@@ -9,8 +9,8 @@ $(document).ready(() => {
       types.adverbs.length +
       types.nouns.length +
       types.adjectives.length) * 4) + (types.rest.length / 20))
-    const rightGradient = sentence.lengh
-    $("body").css("background-image", `linear-gradient(to right,
+    const rightGradient = sentence.length
+    $("body").css("background-image", `linear-gradient(to left,
       hsl(${leftGradient}, 100%, 50%), hsl(${rightGradient}, 100%, 50%)
       `)
     })
